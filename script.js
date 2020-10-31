@@ -50,7 +50,7 @@ else if(random<guess){
 }
 
 else if(random=guess){
-    document.querySelector('body').style.backgroundColor="green";
+    document.querySelector('body').style.backgroundColor="#2ecc71";
     document.querySelector(".guess").innerHTML="Comment : You got it";  
     score--;
     document.querySelector(".score").innerHTML=score;
