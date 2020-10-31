@@ -1,0 +1,13 @@
+.box {
+  border: 1px solid black;
+  padding: 30px;
+}
+.container {
+  margin-top: 20px;
+  text-align: center;
+}
+@media (max-width: 300px) {
+  body {
+    color: red;
+  }
+}
